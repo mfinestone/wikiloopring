@@ -12,9 +12,9 @@ module.exports = {
   },
   siteUrl: (process.env.SITE_URL ? process.env.SITE_URL : 'https://example.com'),
   settings: {
-    web: process.env.'https://loopring.io',
-    twitter: process.env.'https://twitter.com/loopringorg',
-    github: process.env.'https://github.com/Loopring',
+    web: process.env.URL_WEB || 'https://loopring.io' ,
+    twitter: process.env.URL_TWITTER || 'https://twitter.com/loopringorg' ,
+    github: process.env.URL_GITHUB || 'https://github.com/Loopring' ,
     nav: {
       links: [
         { path: '/docs/', title: 'Docs' }
