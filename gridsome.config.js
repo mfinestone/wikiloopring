@@ -5,16 +5,16 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Docc',
+  siteName: 'Loopring Docs',
   icon: {
     favicon: './src/assets/favicon.png',
     touchicon: './src/assets/favicon.png'
   },
   siteUrl: (process.env.SITE_URL ? process.env.SITE_URL : 'https://example.com'),
   settings: {
-    web: process.env.URL_WEB || false,
-    twitter: process.env.URL_TWITTER || false,
-    github: process.env.URL_GITHUB || false,
+    web: process.env.'https://loopring.io',
+    twitter: process.env.'https://twitter.com/loopringorg',
+    github: process.env.'https://github.com/Loopring',
     nav: {
       links: [
         { path: '/docs/', title: 'Docs' }
