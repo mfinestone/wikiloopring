@@ -17,9 +17,7 @@
           <strong class="text-ui-primary">Freedom at your fingertips.</strong>
         </p>
 
-       <div class="py-4">
-          <code class="block px-4 py-1 select-all bg-ui-border text-ui-typo">gridsome create your-project https://github.com/mrcrmn/docc</code>
-        </div>
+       
 
         <div class="flex justify-center mt-8">
           <g-link
@@ -32,7 +30,7 @@
         </div>
 
         <p class="mt-8 text-center">
-          Privacy. By Default. <span class="border-b border-dashed border-ui-primary text-ui-primary">Cryptocurrency you can own.</span>.
+          Privacy. By Default. <span class="border-b border-dashed border-ui-primary text-ui-primary">Cryptocurrency you can own</span>.
         </p>
 
       </div>
