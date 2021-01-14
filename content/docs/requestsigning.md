@@ -9,36 +9,38 @@ next: '/docs/orders/'
 # Request Signing
 
 The Loopring API involves two different categories of signatures. One is the common API request signature, which is used to verify that the API invocations have been authenticated; the other is Loopring Protocol's off-chain request signature, which is used by Loopring to verify that off-chain requests have been authenticated. We will explain each of these two categories separately.
-Special API Request Signatures
-Algorithm
 
-    Initialize signatureBase to an empty string.
-    Append the API's HTTP method to signatureBase.
-    Append '＆' to signatureBase.
-    Append percent-encoded full URL path (without ? or any query parameters) to signatureBase.
-    Append '&' to signatureBase.
-    Initialize parameterString to an empty string.
-    For GET / DELETE requests:
-        Sort query parameters in ascending order lexicographically;
-        Append percent-encoded key name to parameterString;
-        Append an '=' to parameterString;
-        Append percent-encoded value to parameterString;
-        Append a '&' if there are more key value pairs.
-    For POST / PUT requests:
-        Append request body as a string to parameterString.
-    Append percent-encoded parameterString to signatureBase
-    Calculate the SHA-256 hash of signatureBase as hash.
-    Signhash with the private EdDSA key and get Rx, Ry, and S.
-    Concatenate Rx,Ry, andS using ',' as: ${Rx},${Ry},${S}.
+## Special API Request Signatures
 
-HTTP Method and URL
+### Algorithm
+
+   - Initialize signatureBase to an empty string.
+   - Append the API's HTTP method to signatureBase.
+   - Append '＆' to signatureBase.
+   - Append percent-encoded full URL path (without ? or any query parameters) to signatureBase.
+   - Append '&' to signatureBase.
+   - Initialize parameterString to an empty string.
+   - For GET / DELETE requests:
+       - Sort query parameters in ascending order lexicographically;
+       - Append percent-encoded key name to parameterString;
+       - Append an '=' to parameterString;
+       - Append percent-encoded value to parameterString;
+       - Append a '&' if there are more key value pairs.
+   - For POST / PUT requests:
+       - Append request body as a string to parameterString.
+   - Append percent-encoded parameterString to signatureBase
+   - Calculate the SHA-256 hash of signatureBase as hash.
+   - Signhash with the private EdDSA key and get Rx, Ry, and S.
+   - Concatenate Rx,Ry, andS using ',' as: ${Rx},${Ry},${S}.
+
+### HTTP Method and URL
 
 Please make sure you use only the following HTTP methods, in upper case letters.
 
-    GET
-    POST
-    PUT
-    DELETE
+   - GET
+   - POST
+   - PUT
+   - DELETE
 
 Also make sure the HTTPS header is included and is in lower case. For example:
 
