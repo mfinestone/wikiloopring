@@ -1,57 +1,34 @@
 ---
 description: ''
 sidebar: 'docs'
-next: '/docs/installation/'
+next: '/docs/glossary/'
 ---
 
-# Introduction
 
-Docc is a starter theme for [Gridsome](https://gridsome.org/) which is a static site generator powered by Vue. It allows you to quickly start writing your technical documentation for any kind of project.
+# Loopring
 
-## Fast by default
+# Protocol & Exchange
 
-This is the catchphrase of Gridsome and true in any sense of the word. Static site generators output plain html files and have other great features like image processing and lazy-loading. After Serving the initial html, Gridsome site turn into a snappy single page application.
+Loopring is the first scalable DEX protocol built with zkRollup for Ethereum. Using Loopring, people can build a high-performance, orderbook-based, decentralized exchanges that do not take custody of users' crypto-assets. Due to the use of zkRollup, a layer-2 scalability solution, Loopring is capable of settling more than 2,000 trades per second on Ethereum 1.0. If you would like to learn more about Loopring's design and technical details, please check out Loopring's official website: https://loopring.org.
 
-If I may quote Gridsome themselves:
+Loopring Exchange is the first decentralized trading platform built on top of the Loopring protocol. Loopring Exchange is accessible at Loopring.io. The current version of Loopring Exchange is beta2, which uses Loopring version 3.6. Loopring Exchange's contract address on Ethereum mainnet is: 0x0BABA1Ad5bE3a5C0a66E7ac838a129Bf948f1eA4. The address has a permanent ENS as (exchange2.loopring.eth).
 
-> Gridsome builds ultra performance into every page automatically. You get code splitting, asset optimization, progressive images, and link prefetching out of the box. With Gridsome you get almost perfect page speed scores by default.
+# Technical Advantages
 
-In combination with [Netlify](https://www.netlify.com/) this theme gives you a perfect Lighthouse score out of the box.
+Loopring makes sure nobody can misappropriate users' crypto-assets deposited to an exchange. Even under extreme circumstances, such as an exchange's UI stopped functioning, or the exchange's operators are out of reach, users can still claim their rightful assets by providing valid Merkle proofs that are derivable from data on Ethereum.
 
-## Simple Navigation
+Loopring does not guarantee the efficiency and fairness of off-chain order-matching. Order-matching is a job for the relayer system, which is a centralized piece of the overall DEX solution. Different exchanges built on the same Loopring protocol can adopt very different relayer solutions and thus provide various quality of services. The Loopring protocol does guarantee that relayers must follow specific rules for trade settlement.
 
-Any good documentation has great navigation. This theme has support for an organized sidebar fore cross-page navigation as well as an autmatic generated table of contents for each page in your documentation.
+We developed Loopring Exchange's relayer system as a closed source project. As of now, it offers a throughput of 200 trades per second..
 
-## Search
+# Overall Architecture
 
-The search component which is shipped with this theme, automatically indexes all headlines in your markdown pages and provides instant client side search powered by [Fuse.js](https://fusejs.io/).
+The overall architecture of Loopring Exchange is shown below:
 
-## Dark Mode
+Image Placeholder
 
-This seems to be a must have for any site in current year. Click the icon at the top of the page and try it out for yourself!
+Some key points you need to know:
 
-## TailwindCSS
+   - Loopring Exchange provides API to handle user offchain requests, namely order submission and cancellation, and withdrawals. Other user requests, including account registration, password reset, and deposits, must be submitted using Ethereum transactions. These requests are called on-chain requests.
+   - Loopring offers a high-performance trading experience similar to centralized exchanges, which mainly benefits from the batch processing capability of the underlying Loopring protocol. Loopring uses Ethereum as a data availability layer and a ZKP verification layer; Loopring does not perform trading related computations on Ethereum.
 
-This starter uses [TailwindCSS](https://tailwindcss.com/) for layout and styling. You can easily configure it by editing the `tailwind.config.js` file. [PurgeCSS](https://purgecss.com/) is included as well to keep the bundle size as low as possible and the website fast and snappy!
-
-### Changing Colors
-
-The most inportant colors are defined in the `src/layouts/Default.vue` file at the top of the `style` block via CSS variables. If you want to change the primary color to orange for example, you would simply touch that value there.
-
-```css
-:rrot {
-  --color-ui-primary: theme('colors.orange.600');
-}
-```
-
-## Make it your own
-
-Of course this is just a starter to quickly get you going. After downloading and installing you can do whatever you want with this theme. Check out the `src` folder and take a look at the components.
-
-Docc uses [TailwindCSS](https://tailwindcss.com/). Colors and spacing can easily configured. To change the accent color, you only need to touch a single line in the code.
-
-Don't like how something was designed or implemented? Just change the code and **make it your way**.
-
-### Contribute
-
-If you find any spelling mistakes or have improvements to offer, I am open to anyone who has ideas and wants to contribute to this starter theme.
