@@ -9,7 +9,7 @@
           </h2>
         </div>
         <h1 class="text-4xl text-center lg:text-5xl">
-          Decentralized Wallet &amp; Exchange, Done Right.
+          Decentralized Wallet &amp; Exchange. Done Right.
         </h1>
         <p class="text-xl font-medium text-center">
           An Ethereum Smart Wallet &amp; Exchange with zkRollup-based Trading, Transfers and AMMs.
