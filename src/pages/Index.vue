@@ -17,7 +17,9 @@
           <strong class="text-ui-primary">Freedom at your fingertips.</strong>
         </p>
 
-       
+       <div class="py-4">
+          <code class="block px-4 py-1 select-all bg-ui-border text-ui-typo">gridsome create your-project https://github.com/mrcrmn/docc</code>
+        </div>
 
         <div class="flex justify-center mt-8">
           <g-link
