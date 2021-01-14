@@ -15,7 +15,10 @@
             </span>
           </g-link>
 
-          <div v-if="settings.nav.links.length > 0" class="hidden ml-2 mr-5 sm:block sm:ml-8">
+          <div style='width: 50px'>
+            <span></span>
+          </div>
+          <!-- <div v-if="settings.nav.links.length > 0" class="hidden ml-2 mr-5 sm:block sm:ml-8">
             <g-link
               v-for="link in settings.nav.links"
               :key="link.path"
@@ -24,7 +27,7 @@
             >
               {{ link.title }}
             </g-link>
-          </div>
+          </div> -->
         </div>
 
         <div class="w-full px-2 sm:px-4 max-w-screen-xs">
