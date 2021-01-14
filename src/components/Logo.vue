@@ -1,5 +1,5 @@
 <template>
-<img src="/logo.png" alt="Loopring" style="width:34px;height:34px;">
+<img src="/logo.png" alt="Loopring" style="width:100%;height:100px;">
 </template>
 
 <script>
