@@ -42,7 +42,7 @@ module.exports = {
               '/docs/orders/',
               '/docs/examplecode/',
               '/docs/smartcontracts/',
-              '/docs/uattokents/',
+              '/docs/uattokens/',
             ]
           }
         ]
