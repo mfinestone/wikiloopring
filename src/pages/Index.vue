@@ -12,7 +12,7 @@
           Decentralized Exchange, Done Right.
         </h1>
         <p class="text-xl font-medium text-center">
-          Ethereum Smart Wallet with zkRollup-based Trading, Transfers & AMMs.
+          Ethereum Smart Wallet with zkRollup-based Trading, Transfers and AMMs.
           <br>
           <strong class="text-ui-primary">Freedom at your fingertips.</strong>
         </p>
@@ -43,7 +43,7 @@
         <div class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
           <ZapIcon size="3x" class="mb-6 text-ui-primary" />
           <h3 class="font-bold tracking-wide uppercase text-ui-primary">
-            Fast, Cheap, & Easy to use
+            Fast, Cheap, and Easy to use
           </h3>
           <p class="text-lg text-left">
             Loopring Wallet integrates Loopring's zkRollup layer-2 scaling protocol to raise speeds and lower fees by 1000x, while inheriting the absolute same security guarantees as Ethereum mainnet. <span class="border-b border-dashed border-ui-primary text-ui-primary">No seriously</span>.
