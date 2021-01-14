@@ -6,6 +6,8 @@
 
 module.exports = {
   siteName: 'Loopring',
+  siteUrl: 'https://loopringdemo.netlify.app',
+  titleTemplate: 'Loopring',
   icon: {
     favicon: './src/assets/favicon.png',
     touchicon: './src/assets/favicon.png'
