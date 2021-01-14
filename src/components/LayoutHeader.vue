@@ -15,7 +15,7 @@
             </span>
           </g-link>
 
-          <div style='width: 50px'>
+          <div style='width: 20px'>
             <span></span>
           </div>
           <!-- <div v-if="settings.nav.links.length > 0" class="hidden ml-2 mr-5 sm:block sm:ml-8">
