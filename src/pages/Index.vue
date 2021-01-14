@@ -90,8 +90,8 @@ export default {
   },
 
   metaInfo() {
-    const title = 'Loopring';
-    const description = 'Loopring's zkRollup L2 solution offers the same security guarantees as Ethereum mainnet, with a big scalability boost.';
+     const title = 'Great Documentation starts here';
+    const description = 'DOCC is a starter theme with instant search and dark mode for writing great technical documentation. Based on Gridsome!';
 
     return {
       title: title,
