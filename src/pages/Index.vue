@@ -9,10 +9,10 @@
           </h2>
         </div>
         <h1 class="text-4xl text-center lg:text-5xl">
-          "Decentralized Exchange & Wallet, Done Right."
+          Decentralized Exchange &amp; Wallet, Done Right.
         </h1>
         <p class="text-xl font-medium text-center">
-          "An Ethereum Smart Wallet & Exchange with zkRollup-based Trading, Transfers and AMMs."
+          An Ethereum Smart Wallet &amp; Exchange with zkRollup-based Trading, Transfers and AMMs.
           <br>
           <strong class="text-ui-primary">Freedom at your fingertips.</strong>
         </p>
