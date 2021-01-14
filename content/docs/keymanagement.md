@@ -16,7 +16,7 @@ First of all, you need to register an account on Loopring Exchange (LoopringV2).
 
 The exported JSON should look like the following:
 
-<code>
+'''javascript=
 {
     "exchangeName": "LoopringDEX: Beta 1",
     "exchangeAddress": "0x944644Ea989Ec64c2Ab9eF341D383cEf586A5777",
@@ -27,7 +27,7 @@ The exported JSON should look like the following:
     "publicKeyY": "0xb02f0e022052972c3f8b25d69e6f289cb8f847063c62840ea880089b2dc096e",
     "privateKey": "0x2bf7d29ae0293dd8b7538681341934a26ec5c98bd2f8c58e4d67bbede05d1b7"
 }
-    </code>
+'''
 
 The first four fields are constants to the current version of the Loopring Exchange; other fields are about your account. Among them, publicKeyX andpublicKeyY are collectively the EdDSA public key of your account, and privateKey is the EdDSA private key.
 
