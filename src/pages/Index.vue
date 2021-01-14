@@ -54,7 +54,7 @@
             Search the Documentation
           </h3>
           <p class="text-lg text-left">
-            Instant search within these docs powered by Fuse.js. Find what you are looking for in the <span class="border-b border-dashed border-ui-primary text-ui-primary">blink of an eye</span>.
+            Our docs are fast by default too. Find what you are looking for in the <span class="border-b border-dashed border-ui-primary text-ui-primary">blink of an eye</span>.
           </p>
         </div>
 
@@ -64,7 +64,7 @@
             Dark Mode
           </h3>
           <p class="text-lg text-left">
-            Do your eyes need peace? Enable dark mode with the click of a button.
+            Do your eyes need a break? Dark mode at the click of a button.
           </p>
         </div>
       </div>
