@@ -5,34 +5,32 @@
         <div class="flex flex-col items-center mb-2 text-ui-primary">
           <Logo :width="80" />
           <h2 class="text-3xl text-6xl font-black tracking-tighter border-none">
-            DOCC
+            Loopring
           </h2>
         </div>
         <h1 class="text-4xl text-center lg:text-5xl">
-          Great Documentation starts here.
+          Decentralized Exchange, Done Right.
         </h1>
         <p class="text-xl font-medium text-center">
-          Perfect Lighthouse score out of the box. Easy to set-up. Dark mode included.
+          Ethereum Smart Wallet with zkRollup-based Trading, Transfers & AMMs.
           <br>
-          <strong class="text-ui-primary">Got a minute?</strong>
+          <strong class="text-ui-primary">Freedom at your fingertips.</strong>
         </p>
 
-        <div class="py-4">
-          <code class="block px-4 py-1 select-all bg-ui-border text-ui-typo">gridsome create your-project https://github.com/mrcrmn/docc</code>
-        </div>
+       
 
         <div class="flex justify-center mt-8">
           <g-link
             to="/docs/"
             class="flex items-center px-6 py-4 ml-auto text-2xl font-bold leading-none text-white border rounded-lg shadow-lg bg-ui-primary border-ui-primary transition-all duration-200 ease-out transform hover:shadow-xl hover:-translate-y-1"
           >
-            Get started
+            Let's Go
             <ArrowRightCircleIcon class="ml-4" size="1x" />
           </g-link>
         </div>
 
         <p class="mt-8 text-center">
-          Open Source. MIT License. <span class="border-b border-dashed border-ui-primary text-ui-primary">Make it your own</span>.
+          Privacy. By Default. <span class="border-b border-dashed border-ui-primary text-ui-primary">Cryptocurrency you can own.</span>.
         </p>
 
       </div>
@@ -43,30 +41,30 @@
         <div class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
           <ZapIcon size="3x" class="mb-6 text-ui-primary" />
           <h3 class="font-bold tracking-wide uppercase text-ui-primary">
-            Incredibly Fast
+            Fast, Cheap, & Easy to use
           </h3>
           <p class="text-lg text-left">
-            Powered by Gridsome. Built on Vue. Outputs static files. It wont't get any faster than this. <span class="border-b border-dashed border-ui-primary text-ui-primary">No seriously</span>.
+            Loopring Wallet integrates Loopring's zkRollup layer-2 scaling protocol to raise speeds and lower fees by 1000x, while inheriting the absolute same security guarantees as Ethereum mainnet. <span class="border-b border-dashed border-ui-primary text-ui-primary">No seriously</span>.
           </p>
         </div>
 
         <div class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
           <SearchIcon size="3x" class="mb-6 text-ui-primary" />
           <h3 class="font-bold tracking-wide uppercase text-ui-primary">
-            Instant Search
+            Search the Documentation
           </h3>
           <p class="text-lg text-left">
-            All headlines are indexed. Instant search powered by Fuse.js. Find what you are looking for in the <span class="border-b border-dashed border-ui-primary text-ui-primary">blink of an eye</span>.
+            Instant search within these docs powered by Fuse.js. Find what you are looking for in the <span class="border-b border-dashed border-ui-primary text-ui-primary">blink of an eye</span>.
           </p>
         </div>
 
         <div class="flex flex-col items-center w-full px-4 mb-8 text-center md:w-1/3">
           <MoonIcon size="3x" class="mb-6 text-ui-primary" />
           <h3 class="font-bold tracking-wide uppercase text-ui-primary">
-            Lights out
+            Dark Mode
           </h3>
           <p class="text-lg text-left">
-            Working late at night again? Enable dark mode with the click of a button.
+            Do your eyes need peace? Enable dark mode with the click of a button.
           </p>
         </div>
       </div>
@@ -90,8 +88,8 @@ export default {
   },
 
   metaInfo() {
-    const title = 'Great Documentation starts here';
-    const description = 'DOCC is a starter theme with instant search and dark mode for writing great technical documentation. Based on Gridsome!';
+    const title = 'Loopring';
+    const description = 'Loopring's zkRollup L2 solution offers the same security guarantees as Ethereum mainnet, with a big scalability boost.';
 
     return {
       title: title,
