@@ -8,44 +8,44 @@ next: '/docs/general/'
 
 # Glossary
 
-# DEX
+## DEX
 
 Decentralized EXchange.
 
-# Zero-Knowledge Proofs
+## Zero-Knowledge Proofs
 
 A method by which one party (the prover) can prove to another party (the verifier) that they know a value x, without conveying any information apart from the fact that they know the value x.
 
-    source: https://en.wikipedia.org/wiki/Zero-knowledge_proof
+    '''source: https://en.wikipedia.org/wiki/Zero-knowledge_proof'''
 
-# Relayer
+## Relayer
 
 Loopring Exchange's backend system that handles order matching and settlement, deposits, withdrawals, and Zero-Knowledge Proof generation, etc.
 
-# On-chain Requests
+## On-chain Requests
 
 User requests sent to Loopring Exchange through Ethereum transactions.
 
-# Off-chain Requests
+## Off-chain Requests
 
 User requests sent to Loopring Exchange using Loopring's API.
 
-# Base Token
+## Base Token
 
 The target token to trade. For example, in the LRC-ETH trading pair, LRC is referred to as the base token.
 
-# Quote Token
+## Quote Token
 
 The token to quote price. For example, in the LRC-ETH trading pair, ETH is referred to as the base token.
 
-# Size
+## Size
 
 The quantity of the base token in an order or a fill.
 
-# Volume
+## Volume
 
 The quantity of the quote token in an order or a fill.
 
-# EdDSA
+## EdDSA
 
 The signing algorithm used by Loopring to sign off-chain requests. EdDSA is more circuit friendly compared to Ethereum's ECDSA algorithm.
