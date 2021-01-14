@@ -88,8 +88,8 @@ export default {
   },
 
   metaInfo() {
-     const title = 'Great Documentation starts here';
-    const description = 'DOCC is a starter theme with instant search and dark mode for writing great technical documentation. Based on Gridsome!';
+     const title = 'Loopring Exchange and Wallet';
+    const description = 'Loopring allows anyone to build high-throughput, non-custodial, orderbook-based exchanges on Ethereum by leveraging Zero-Knowledge Proofs.';
 
     return {
       title: title,
