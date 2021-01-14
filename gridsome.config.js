@@ -27,19 +27,22 @@ module.exports = {
         name: 'docs',
         sections: [
           {
-            title: 'Getting Started',
+            title: 'About',
             items: [
               '/docs/',
-              '/docs/installation/',
-              '/docs/writing-content/',
-              '/docs/deploying/',
+              '/docs/glossary/',
             ]
           },
           {
-            title: 'Configuration',
+            title: 'Fundamental',
             items: [
-              '/docs/settings/',
-              '/docs/sidebar/',
+              '/docs/general/',
+              '/docs/keymanagement/',
+              '/docs/requestsigning/',
+              '/docs/orders/',
+              '/docs/examplecode/',
+              '/docs/smartcontracts/',
+              '/docs/uattokents/',
             ]
           }
         ]
