@@ -5,7 +5,7 @@
         <div class="flex flex-col items-center mb-2 text-ui-primary">
           <Logo :width="80" />
           <h2 class="text-3xl text-6xl font-black tracking-tighter border-none">
-            Loopring
+          
           </h2>
         </div>
         <h1 class="text-4xl text-center lg:text-5xl">
