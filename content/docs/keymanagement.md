@@ -15,6 +15,7 @@ Before using Loopring's API, you need to know how to obtain and change your acco
 First of all, you need to register an account on Loopring Exchange (LoopringV2). Then you can use the "Export Account" function to export account-related information as a JSON object. The JSON object includes your EdDSA key pair and your account's ApiKey.
 
 The exported JSON should look like the following:
+
 <code>
 {
     "exchangeName": "LoopringDEX: Beta 1",
