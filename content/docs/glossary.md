@@ -16,9 +16,8 @@ Decentralized EXchange.
 
 A method by which one party (the prover) can prove to another party (the verifier) that they know a value x, without conveying any information apart from the fact that they know the value x.
 
-   '''
-   source: https://en.wikipedia.org/wiki/Zero-knowledge_proof 
-   '''
+   <code>source: https://en.wikipedia.org/wiki/Zero-knowledge_proof 
+</code>
 
 ## Relayer
 
