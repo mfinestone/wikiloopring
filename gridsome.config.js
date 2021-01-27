@@ -5,16 +5,18 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Docc',
+  siteName: 'Loopring',
+  siteUrl: 'https://loopringdemo.netlify.app',
+  titleTemplate: 'Loopring',
   icon: {
     favicon: './src/assets/favicon.png',
     touchicon: './src/assets/favicon.png'
   },
   siteUrl: (process.env.SITE_URL ? process.env.SITE_URL : 'https://example.com'),
   settings: {
-    web: process.env.URL_WEB || false,
-    twitter: process.env.URL_TWITTER || false,
-    github: process.env.URL_GITHUB || false,
+    web: process.env.URL_WEB || 'https://loopring.io' ,
+    twitter: process.env.URL_TWITTER || 'https://twitter.com/loopringorg' ,
+    github: process.env.URL_GITHUB || 'https://github.com/Loopring' ,
     nav: {
       links: [
         { path: '/docs/', title: 'Docs' }
@@ -25,19 +27,22 @@ module.exports = {
         name: 'docs',
         sections: [
           {
-            title: 'Getting Started',
+            title: 'About',
             items: [
               '/docs/',
-              '/docs/installation/',
-              '/docs/writing-content/',
-              '/docs/deploying/',
+              '/docs/glossary/',
             ]
           },
           {
-            title: 'Configuration',
+            title: 'Fundamental',
             items: [
-              '/docs/settings/',
-              '/docs/sidebar/',
+              '/docs/general/',
+              '/docs/keymanagement/',
+              '/docs/requestsigning/',
+              '/docs/orders/',
+              '/docs/examplecode/',
+              '/docs/smartcontracts/',
+              '/docs/uattokens/',
             ]
           }
         ]
