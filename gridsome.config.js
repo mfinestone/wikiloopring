@@ -53,7 +53,7 @@ module.exports = {
         name: 'docs',
         sections: [
           {
-            title: 'About',
+            title: 'v3.6',
             items: [
               '/docs/',
               '/docs/deploymentmainnet/',
