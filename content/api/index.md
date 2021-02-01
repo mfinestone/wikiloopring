@@ -5,7 +5,7 @@ next: '/api/glossary/'
 ---
 
 
-# Loopring
+# API
 
 ## Protocol & Exchange
 
