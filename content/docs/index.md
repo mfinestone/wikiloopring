@@ -1,7 +1,7 @@
 ---
 description: ''
-sidebar: 'docs'
-next: '/docs/glossary/'
+sidebar: 'api'
+next: '/api/glossary/'
 ---
 
 
