@@ -49,36 +49,22 @@ module.exports = {
           }
         ]
       }
-      ],
-      sidebar: [
+    ],
+    sidebar: [
       {
         name: 'docs',
         sections: [
           {
-            title: 'General',
+            title: 'About',
             items: [
               '/docs/',
               '/docs/deploymentmainnet/',
             ]
           },
           {
-            title: 'Placeholder',
+            title: 'Fundamental',
             items: [
               '/docs/placeholder/',
-            ]
-          }
-        ]
-      }
-        ],
-    sidebar: [
-      {
-        name: 'faq',
-        sections: [
-          {
-            title: 'FAQ',
-            items: [
-              '/faq/',
-              '/faq/placeholder/',
             ]
           }
         ]
