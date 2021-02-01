@@ -59,14 +59,6 @@ module.exports = {
               '/docs/deploymentmainnet/',
             ]
           },
-           {
-            title: 'Navigation',
-            items: [
-              '/api/',
-              '/docs/',
-              '/faq/',
-            ]
-          },
           {
             title: 'Fundamental',
             items: [
