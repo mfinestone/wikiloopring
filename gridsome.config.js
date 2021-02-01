@@ -66,6 +66,13 @@ module.exports = {
               '/docs/deploymentmainnet/',
             ]
           },
+           {
+            title: 'Walkthroughs',
+            items: [
+              '/docs/',
+              '/docs/deploymentmainnet/',
+            ]
+          },
           {
             title: 'Site Navigation',
             items: [
@@ -83,6 +90,13 @@ module.exports = {
             items: [
               '/faq/',
               '/faq/howto/',
+              '/faq/apps/',
+              '/faq/l1vl2/',
+              '/faq/staking/',
+              '/faq/fees/',
+              '/faq/points/',
+              '/faq/security/',
+              '/faq/amm/',
             ]
           },
           {
