@@ -1,8 +1,8 @@
 ---
 description: ''
-sidebar: 'docs'
-prev: '/docs/orders/'
-next: '/docs/smartcontracts/'
+sidebar: 'api'
+prev: '/api/orders/'
+next: '/api/smartcontracts/'
 ---
 
 
