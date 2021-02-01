@@ -19,7 +19,9 @@ module.exports = {
     github: process.env.URL_GITHUB || 'https://github.com/Loopring' ,
     nav: {
       links: [
-        { path: '/api/', title: 'API' }
+        { path: '/api/', title: 'API' },
+        { path: '/docs/', title: 'Docs' },
+        { path: '/faq/', title: 'FAQ' }
       ]
     },
     sidebar: [
@@ -43,6 +45,36 @@ module.exports = {
               '/api/examplecode/',
               '/api/smartcontracts/',
               '/api/uattokens/',
+            ]
+          }
+        ]
+      },
+      {
+        name: 'Docs',
+        sections: [
+          {
+            title: 'General',
+            items: [
+              '/docs/',
+              '/docs/deploymentmainnet/',
+            ]
+          },
+          {
+            title: 'Placeholder',
+            items: [
+              '/docs/placeholder/',
+            ]
+          }
+        ]
+      },
+      {
+        name: 'FAQ',
+        sections: [
+          {
+            title: 'FAW',
+            items: [
+              '/faq/',
+              '/faq/placeholder/',
             ]
           }
         ]
