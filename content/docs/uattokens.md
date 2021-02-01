@@ -1,7 +1,7 @@
 ---
 description: ''
-sidebar: 'docs'
-prev: '/docs/smartcontracts/'
+sidebar: 'api'
+prev: '/api/smartcontracts/'
 ---
 
 # UAT Tokens
