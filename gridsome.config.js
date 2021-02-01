@@ -46,6 +46,13 @@ module.exports = {
               '/api/smartcontracts/',
               '/api/uattokens/',
             ]
+          },
+          {
+            title: 'Site Navigation',
+            items: [
+              '/docs/',
+              '/faq/',
+            ]
           }
         ]
       },
@@ -57,6 +64,25 @@ module.exports = {
             items: [
               '/docs/',
               '/docs/deploymentmainnet/',
+            ]
+          },
+          {
+            title: 'Site Navigation',
+            items: [
+              '/api/',
+              '/faq/',
+            ]
+          }
+        ]
+      },
+      {
+        name: 'faq',
+        sections: [
+          {
+            title: 'FAQ',
+            items: [
+              '/faq/',
+              '/faq/howto/',
             ]
           },
           {
