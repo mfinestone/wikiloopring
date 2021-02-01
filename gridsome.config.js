@@ -47,8 +47,11 @@ module.exports = {
               '/api/uattokens/',
             ]
           }
-        ],
-        
+        ]
+      }
+    ],
+    sidebar: [
+      {
         name: 'docs',
         sections: [
           {
@@ -61,7 +64,13 @@ module.exports = {
           {
             title: 'Fundamental',
             items: [
-              '/docs/placeholder/',
+              '/api/general/',
+              '/api/keymanagement/',
+              '/api/requestsigning/',
+              '/api/orders/',
+              '/api/examplecode/',
+              '/api/smartcontracts/',
+              '/api/uattokens/',
             ]
           }
         ]
