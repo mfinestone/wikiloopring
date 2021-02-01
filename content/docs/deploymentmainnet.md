@@ -6,7 +6,7 @@ next: '/docs/onboarding/'
 ---
 
 
-# Loopring V3.6
+# Loopring v3.6
 
 ## Explainer
 
