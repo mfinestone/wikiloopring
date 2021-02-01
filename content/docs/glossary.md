@@ -1,8 +1,8 @@
 ---
 description: ''
-sidebar: 'docs'
-prev: '/docs/'
-next: '/docs/general/'
+sidebar: 'api'
+prev: '/api/'
+next: '/api/general/'
 ---
 
 
