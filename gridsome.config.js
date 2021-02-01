@@ -48,9 +48,7 @@ module.exports = {
             ]
           }
         ]
-      }
-    ],
-    sidebar: [
+      },
       {
         name: 'docs',
         sections: [
