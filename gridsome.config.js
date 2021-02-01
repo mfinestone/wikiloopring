@@ -69,8 +69,10 @@ module.exports = {
            {
             title: 'Walkthroughs',
             items: [
-              '/docs/',
-              '/docs/deploymentmainnet/',
+              '/docs/onboarding',
+              '/docs/liquidity/',
+              '/docs/wallet/',
+              '/docs/avoidfees/',
             ]
           },
           {
