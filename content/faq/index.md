@@ -4,7 +4,7 @@ sidebar: 'faq'
 next: '/faq/howto/'
 ---
 
-# FAQ
+# General FAQs
 
 ## Loopring's Vision and Objectives
 
