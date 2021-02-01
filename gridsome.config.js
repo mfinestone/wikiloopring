@@ -60,15 +60,11 @@ module.exports = {
             ]
           },
           {
-            title: 'Fundamental',
+            title: 'Site Navigation',
             items: [
-              '/api/general/',
-              '/api/keymanagement/',
-              '/api/requestsigning/',
-              '/api/orders/',
-              '/api/examplecode/',
-              '/api/smartcontracts/',
-              '/api/uattokens/',
+              '/api/',
+              '/docs/',
+              '/faq/',
             ]
           }
         ]
