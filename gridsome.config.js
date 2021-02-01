@@ -48,7 +48,9 @@ module.exports = {
             ]
           }
         ]
-      },
+      }
+      ],
+      sidebar: [
       {
         name: 'docs',
         sections: [
@@ -66,7 +68,9 @@ module.exports = {
             ]
           }
         ]
-      },
+      }
+        ],
+    sidebar: [
       {
         name: 'faq',
         sections: [
