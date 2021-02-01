@@ -6,14 +6,22 @@ next: '/docs/onboarding/'
 ---
 
 
-# Deployment info for Loopring V3.6
+# Loopring V3.6
+
+## Explainer
+
+[![](https://img.youtube.com/vi/6nZypCa4wgI/0.jpg)](https://www.youtube.com/watch?v=6nZypCa4wgI "Loopring v3.6")
+
+## Written Explanation
+
+## Deployment Info
 
 - release url: https://github.com/Loopring/protocols/releases/tag/Loopring_3.6.0_beta
 - deployer: 0x4374D3d032B3c96785094ec9f384f07077792768
 - operator(has access to submitBlocks): 0x81a48f7BB0b8FCE3db9FAf013D63963aE4948c1D
 - operator 2: 0x2b263f55Bf2125159Ce8Ec2Bb575C649f822ab46
 
-## contract addresses
+## Contract Addresses
 
 - BlockVerifier: 0x6150343E0F43A17519c0327c41eDd9eBE88D01ef
   - ~~blockVersion: 13~~
@@ -53,7 +61,7 @@ next: '/docs/onboarding/'
   - ~~LoopringAmmPool: 0xEE017DF188362F8620058e6CeF56D0e65b872164~~
   - ~~LoopringAmmPool: 0xcc2e3d2DC1fd6Ce145e1124868fda5B2a0592cc5~~
 
-### UPDATE-20210115
+### 01.15.2021 Update
 
 - [LoopringIOExchangeOwner: 0x42bC1aB51b7aF89CfAA88A7291CE55971d8cB83a](https://etherscan.io/address/0x42bC1aB51b7aF89CfAA88A7291CE55971d8cB83a)
 - ExchangeV3: 0x8c63D8E608fF702a92D5908730C91457b0447Ad7
