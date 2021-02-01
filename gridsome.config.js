@@ -97,6 +97,7 @@ module.exports = {
               '/faq/points/',
               '/faq/security/',
               '/faq/amm/',
+              '/faq/exchangev1/',
             ]
           },
           {
