@@ -49,25 +49,6 @@ module.exports = {
           }
         ]
       }
-      ]
-  },
-        name: 'docs',
-        sections: [
-          {
-            title: 'About',
-            items: [
-              '/docs/',
-              '/docs/deploymentmainnet/',
-            ]
-          },
-          {
-            title: 'Fundamental',
-            items: [
-              '/docs/placeholder/',
-            ]
-          }
-        ]
-      }
     ]
   },
   plugins: [
