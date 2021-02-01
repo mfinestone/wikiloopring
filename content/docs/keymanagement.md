@@ -1,8 +1,8 @@
 ---
 description: ''
-sidebar: 'docs'
-prev: '/docs/general/'
-next: '/docs/requestsigning/'
+sidebar: 'api'
+prev: '/api/general/'
+next: '/api/requestsigning/'
 ---
 
 
