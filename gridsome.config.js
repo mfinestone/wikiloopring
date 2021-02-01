@@ -50,7 +50,7 @@ module.exports = {
         ]
       },
       {
-        name: 'Docs',
+        name: 'docs',
         sections: [
           {
             title: 'General',
@@ -68,10 +68,10 @@ module.exports = {
         ]
       },
       {
-        name: 'FAQ',
+        name: 'faq',
         sections: [
           {
-            title: 'FAW',
+            title: 'FAQ',
             items: [
               '/faq/',
               '/faq/placeholder/',
