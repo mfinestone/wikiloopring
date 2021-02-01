@@ -1,8 +1,8 @@
 ---
 description: ''
-sidebar: 'docs'
-prev: '/docs/glossary/'
-next: '/docs/keymanagement/'
+sidebar: 'api'
+prev: '/api/glossary/'
+next: '/api/keymanagement/'
 ---
 
 
