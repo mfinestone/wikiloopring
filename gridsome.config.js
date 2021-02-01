@@ -47,7 +47,9 @@ module.exports = {
               '/api/uattokens/',
             ]
           }
-        ],
+        ]
+      }
+     ],
         name: 'docs',
         sections: [
           {
