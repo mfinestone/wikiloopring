@@ -29,14 +29,6 @@ module.exports = {
         name: 'api',
         sections: [
           {
-            title: 'Site Navigation',
-            items: [
-              '/api/',
-              '/docs/',
-              '/faq/',
-            ]
-          },
-          {
             title: 'About',
             items: [
               '/api/',
