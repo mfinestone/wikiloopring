@@ -49,7 +49,8 @@ module.exports = {
           }
         ]
       }
-     ],
+      ]
+  },
         name: 'docs',
         sections: [
           {
