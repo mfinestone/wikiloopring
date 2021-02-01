@@ -36,7 +36,7 @@ module.exports = {
             ]
           },
           {
-            title: 'Fundamental',
+            title: 'Fundamentals',
             items: [
               '/api/general/',
               '/api/keymanagement/',
@@ -60,7 +60,7 @@ module.exports = {
             ]
           },
            {
-            title: 'Site Navigation',
+            title: 'Navigation',
             items: [
               '/api/',
               '/docs/',
