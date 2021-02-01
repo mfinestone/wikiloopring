@@ -64,7 +64,6 @@ module.exports = {
             items: [
               '/api/',
               '/docs/',
-              '/faq/',
             ]
           }
         ]
