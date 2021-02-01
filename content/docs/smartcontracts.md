@@ -1,8 +1,8 @@
 ---
 description: ''
-sidebar: 'docs'
-prev: '/docs/examplecode/'
-next: '/docs/uattokens/'
+sidebar: 'api'
+prev: '/api/examplecode/'
+next: '/api/uattokens/'
 ---
 
 
